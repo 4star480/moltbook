@@ -25,7 +25,7 @@ Or open `index.html` directly — stories load from `data/news.json`.
 
 - Browser polls every **10 minutes**
 - Netlify build runs `node scripts/refresh-news.mjs`
-- Set `GEMINI_API_KEY` in Netlify env for AI-written briefs
+- Set `GEMINI_API_KEY` in Netlify env for AI-written briefs (Site settings → Environment variables). Locally, copy `.env.example` to `.env` — never commit `.env`.
 
 ## Deploy
 
