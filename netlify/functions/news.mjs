@@ -3,7 +3,7 @@
  * Set GEMINI_API_KEY in Netlify env for AI summaries.
  */
 
-import { enrichStoryImages } from "../../lib/story-images.mjs";
+import { enrichStoryImages, upgradePublisherImageUrl } from "../../lib/story-images.mjs";
 
 const RSS_SOURCES = [
   (url) => "https://corsproxy.io/?" + encodeURIComponent(url),
@@ -103,7 +103,7 @@ async function fetchWorldStories() {
       source: "BBC World",
       category: "world",
       time: pub ? new Date(pub).getTime() : Date.now() - i * 3600000,
-      image: media || null,
+      image: media ? upgradePublisherImageUrl(media) : null,
     };
   });
 }

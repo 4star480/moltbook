@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { homedir } from "os";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import { enrichStoryImages, shouldGenerateImage } from "../lib/story-images.mjs";
+import { enrichStoryImages, shouldGenerateImage, upgradePublisherImageUrl } from "../lib/story-images.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, "..");
@@ -125,6 +125,7 @@ async function fetchWorldStories() {
     ).slice(0, 220);
     const pub = block.match(/<pubDate>(.*?)<\/pubDate>/)?.[1];
     const media = block.match(/url="(https:\/\/[^"]+)"/)?.[1];
+    const rawImage = media || null;
     return {
       id: `bbc-${i}-${link}`,
       title: title.trim(),
@@ -133,7 +134,7 @@ async function fetchWorldStories() {
       source: "BBC World",
       category: "world",
       time: pub ? new Date(pub).getTime() : Date.now() - i * 3600000,
-      image: media || null,
+      image: rawImage ? upgradePublisherImageUrl(rawImage) : null,
     };
   });
 }

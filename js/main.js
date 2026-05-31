@@ -77,6 +77,12 @@ function imageSeed(id) {
 
 function upgradePublisherUrl(url) {
   if (!url || url.startsWith("assets/")) return url;
+  if (url.includes("ichef.bbci.co.uk")) {
+    return url
+      .replace(/\/standard\/\d+\//i, "/standard/1280/")
+      .replace(/\/wide\/\d+\//i, "/wide/1280/")
+      .replace(/\/branded_news\/\d+\//i, "/branded_news/1280/");
+  }
   if (url.includes("dev.to/dynamic/image")) {
     return url
       .replace(/width=\d+/g, `width=${IMG_W}`)
@@ -88,9 +94,17 @@ function upgradePublisherUrl(url) {
   return url;
 }
 
+function bbcWidth(url) {
+  if (!url?.includes("ichef.bbci.co.uk")) return null;
+  const m = url.match(/\/(?:standard|wide|branded_news)\/(\d+)\//i);
+  return m ? parseInt(m[1], 10) : null;
+}
+
 function isLowQuality(url, story) {
   if (!url) return true;
   if (story?.imageQuality === "hq" && story?.imageGenerated) return false;
+  const w = bbcWidth(url);
+  if (w !== null && w < 900) return true;
   const u = url.toLowerCase();
   if (u.includes("pollinations.ai") && u.includes("800")) return true;
   if (u.includes("height=420") || u.includes("width=320")) return true;
@@ -125,17 +139,16 @@ function buildAiImageUrl(story) {
 
 /** HQ image: upgrade publisher CDN or AI-generate when missing/low-res. */
 function storyImageUrl(story) {
-  if (story.image && !isLowQuality(story.image, story)) {
-    return upgradePublisherUrl(story.image);
-  }
+  const upgraded = story.image ? upgradePublisherUrl(story.image) : null;
+  if (upgraded && !isLowQuality(upgraded, story)) return upgraded;
   return buildAiImageUrl(story);
 }
 
 function renderImageBlock(story, className, loading) {
   const src = storyImageUrl(story);
-  const isAi = story.imageGenerated || isLowQuality(story.image, story) || !story.image;
-  const aiClass = isAi ? " img-ai" : "";
-  return `<div class="${className}"><img class="story-img${aiClass}" src="${src}" alt="" loading="${loading}" decoding="async" referrerpolicy="no-referrer" /></div>`;
+  const fallback = buildAiImageUrl(story);
+  const fallbackAttr = fallback !== src ? ` data-fallback="${encodeURIComponent(fallback)}"` : "";
+  return `<div class="${className}"><img class="story-img" src="${src}" alt="" loading="${loading}" decoding="async" referrerpolicy="no-referrer"${fallbackAttr} onerror="if(this.dataset.fallback&&!this.dataset.retried){this.dataset.retried=1;this.src=decodeURIComponent(this.dataset.fallback)}" /></div>`;
 }
 
 function fallbackBrief(stories) {
@@ -278,7 +291,7 @@ function applyPayload(payload) {
   if (!payload?.stories?.length) return false;
   allStories = payload.stories.map((s) => ({
     ...s,
-    image: s.image || null,
+    image: s.image ? upgradePublisherUrl(s.image) : null,
   }));
   lastFetchAt = Date.now();
 
