@@ -60,10 +60,13 @@ function tagLabel(cat) {
   return "Tech";
 }
 
+const IMG_W = 1600;
+const IMG_H = 900;
+
 const IMG_STYLE = {
-  ai: "futuristic AI research environment, screens and neural imagery",
-  tech: "modern technology innovation, clean editorial photograph",
-  world: "international news photojournalism, documentary realism",
+  ai: "futuristic AI research lab, holographic displays, National Geographic quality",
+  tech: "cutting-edge technology, sleek hardware, Wired magazine cover quality",
+  world: "international photojournalism, Reuters documentary style, natural light",
 };
 
 function imageSeed(id) {
@@ -72,27 +75,67 @@ function imageSeed(id) {
   return h;
 }
 
-/** Contextual AI image URL when the publisher provides no art. */
-function storyImageUrl(story) {
-  if (story.image) return story.image;
+function upgradePublisherUrl(url) {
+  if (!url || url.startsWith("assets/")) return url;
+  if (url.includes("dev.to/dynamic/image")) {
+    return url
+      .replace(/width=\d+/g, `width=${IMG_W}`)
+      .replace(/height=\d+/g, `height=${Math.round(IMG_W * 9 / 16)}`);
+  }
+  if (url.includes("width=800") || url.includes("height=450")) {
+    return url.replace(/width=800/g, `width=${IMG_W}`).replace(/height=450/g, `height=${IMG_H}`);
+  }
+  return url;
+}
+
+function isLowQuality(url, story) {
+  if (!url) return true;
+  if (story?.imageQuality === "hq" && story?.imageGenerated) return false;
+  const u = url.toLowerCase();
+  if (u.includes("pollinations.ai") && u.includes("800")) return true;
+  if (u.includes("height=420") || u.includes("width=320")) return true;
+  if (story?.imageGenerated && story?.imageQuality !== "hq") return true;
+  return false;
+}
+
+function buildAiImageUrl(story) {
   const style = IMG_STYLE[story.category] || IMG_STYLE.tech;
-  const ctx = (story.excerpt || "").replace(/Hacker News ·.*$/i, "").trim().slice(0, 160);
+  const ctx = (story.excerpt || "").replace(/Hacker News ·.*$/i, "").trim().slice(0, 180);
   const prompt = [
-    "Realistic editorial news photograph.",
+    "Award-winning editorial news photograph.",
     `Subject: ${story.title}.`,
     ctx ? `Context: ${ctx}.` : "",
     `Style: ${style}.`,
-    "Photojournalistic, 16:9, no text, no logos.",
+    "Ultra high resolution, tack sharp, professional color grading, photorealistic 16:9.",
+    "No text, no logos, no watermarks.",
   ]
     .filter(Boolean)
     .join(" ")
-    .slice(0, 480);
-  return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=800&height=450&nologo=true&seed=${imageSeed(story.id)}`;
+    .slice(0, 500);
+  const params = new URLSearchParams({
+    width: String(IMG_W),
+    height: String(IMG_H),
+    nologo: "true",
+    seed: String(imageSeed(story.id)),
+    model: "flux",
+    enhance: "true",
+  });
+  return `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?${params}`;
+}
+
+/** HQ image: upgrade publisher CDN or AI-generate when missing/low-res. */
+function storyImageUrl(story) {
+  if (story.image && !isLowQuality(story.image, story)) {
+    return upgradePublisherUrl(story.image);
+  }
+  return buildAiImageUrl(story);
 }
 
 function renderImageBlock(story, className, loading) {
   const src = storyImageUrl(story);
-  return `<div class="${className}"><img src="${src}" alt="" loading="${loading}" referrerpolicy="no-referrer" /></div>`;
+  const isAi = story.imageGenerated || isLowQuality(story.image, story) || !story.image;
+  const aiClass = isAi ? " img-ai" : "";
+  return `<div class="${className}"><img class="story-img${aiClass}" src="${src}" alt="" loading="${loading}" decoding="async" referrerpolicy="no-referrer" /></div>`;
 }
 
 function fallbackBrief(stories) {

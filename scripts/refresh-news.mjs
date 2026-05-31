@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { homedir } from "os";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import { enrichStoryImages } from "../lib/story-images.mjs";
+import { enrichStoryImages, shouldGenerateImage } from "../lib/story-images.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, "..");
@@ -204,16 +204,18 @@ async function main() {
     }
   }
 
-  const missingImages = stories.filter((s) => !s.image).length;
-  if (missingImages) {
-    console.log(`Generating contextual images for ${missingImages} stories…`);
+  const missingImages = stories.filter((s) => shouldGenerateImage(s)).length;
+  if (missingImages || stories.some((s) => s.image)) {
+    console.log(`Enhancing images (generate/replace low-res)…`);
     const imgResult = await enrichStoryImages(stories, {
       apiKey: key,
       root: ROOT,
-      maxGenerate: 8,
+      maxGenerate: 10,
       persist: true,
     });
-    console.log(`Images: ${imgResult.geminiCount} Gemini, ${imgResult.contextual} contextual total.`);
+    console.log(
+      `Images: ${imgResult.geminiCount} Gemini · ${imgResult.regenerated} AI · ${imgResult.upgraded} upgraded CDN · ${imgResult.total} total.`
+    );
   }
 
   const payload = {

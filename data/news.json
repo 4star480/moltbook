@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-05-31T16:06:04.360Z",
+  "updatedAt": "2026-05-31T16:11:22.905Z",
   "refreshMinutes": 10,
-  "brief": "The wires are busy: From Specs to Tickets: Automating Jira Setup with Node.js and the Jira API · Daily pill can double survival time for deadliest cancer, trial shows · Laos cave survivors help with plan to find last two missing men. This brief refreshes every ten minutes with live AI, technology, and world reporting.",
+  "brief": "The wires are busy: From Specs to Tickets: Automating Jira Setup with Node.js and the Jira API · Daily pill can double survival time for deadliest cancer, trial shows · Israel seizes castle in Lebanon as it expands ground offensive. This brief refreshes every ten minutes with live AI, technology, and world reporting.",
   "errors": [],
   "stories": [
     {
-      "id": "bbc-3-https://www.bbc.com/news/articles/c8094jdpzv3o?at_medium=RSS&amp;at_campaign=rss",
+      "id": "bbc-0-https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Israel seizes castle in Lebanon as it expands ground offensive",
+      "url": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Prime Minister Benjamin Netanyahu describes the capture of the strategic fortress as a \"decisive shift\" in its military campaign against Hezbollah.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780243737000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22ea/live/21fd5600-5cdb-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "id": "bbc-4-https://www.bbc.com/news/articles/c8094jdpzv3o?at_medium=RSS&amp;at_campaign=rss",
       "title": "Laos cave survivors help with plan to find last two missing men",
       "url": "https://www.bbc.com/news/articles/c8094jdpzv3o?at_medium=RSS&amp;at_campaign=rss",
       "excerpt": "So far, five men have been freed from the narrow, flooded cave but efforts are ongoing to locate two more.",
@@ -18,12 +28,13 @@
       "id": "hn-48346629",
       "title": "Daily pill can double survival time for deadliest cancer, trial shows",
       "url": "https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial",
-      "excerpt": "Hacker News · 11 pts · 2 comments",
+      "excerpt": "Hacker News · 15 pts · 2 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780242209000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Daily%20pill%20can%20double%20survival%20time%20for%20deadliest%20cancer%2C%20trial%20shows.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325093203",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Daily%20pill%20can%20double%20survival%20time%20for%20deadliest%20cancer%2C%20trial%20shows.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325093203&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789767",
@@ -33,7 +44,9 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780240778000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frk27hyfekrbsofyzszsg.png"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20From%20Specs%20to%20Tickets%3A%20Automating%20Jira%20Setup%20with%20Node.js%20and%20the%20Jira%20API.%20Context%3A%20The%20plan%20was%20simple%20Take%20the%20specs%20we'd%20written%2C%20turn%20them%20into%20Jira%20epics%2C%20stories%20and....%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20o?width=1600&height=900&nologo=true&seed=2372043278&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789766",
@@ -43,10 +56,10 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780240752000,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6hzdoyi7elduxn1s6q4b.png"
+      "image": "https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6hzdoyi7elduxn1s6q4b.png"
     },
     {
-      "id": "bbc-4-https://www.bbc.com/news/articles/c2027g423glo?at_medium=RSS&amp;at_campaign=rss",
+      "id": "bbc-5-https://www.bbc.com/news/articles/c2027g423glo?at_medium=RSS&amp;at_campaign=rss",
       "title": "Colombia votes in presidential election that could redefine relations with US",
       "url": "https://www.bbc.com/news/articles/c2027g423glo?at_medium=RSS&amp;at_campaign=rss",
       "excerpt": "The election is held after months of public recrimination between current left-wing President Gustavo Petro and his US counterpart Donald Trump.",
@@ -59,12 +72,13 @@
       "id": "hn-48346257",
       "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
       "url": "https://prismml.com/news/bonsai-image-4b",
-      "excerpt": "Hacker News · 35 pts · 7 comments",
+      "excerpt": "Hacker News · 39 pts · 7 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780239892000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%201-Bit%20Bonsai%20Image%204B%20Image%20Generation%20for%20Local%20Devices.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325089450",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%201-Bit%20Bonsai%20Image%204B%20Image%20Generation%20for%20Local%20Devices.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325089450&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789672",
@@ -74,18 +88,21 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780239449000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffhcj5ujbeayx84jdhkfx.png"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20How%20We%20Built%20a%20CTO-Grade%20Grafana%20Dashboard%20With%20Codex.%20Context%3A%20A%20practical%20playbook%20for%20using%20Codex%2C%20Grafana%2C%20dashboards-as-code%2C%20and%20tests%20to%20build%20an%20observability%20dashboard%20that%20answers%20real%20operational%20questions..%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%201?width=1600&height=900&nologo=true&seed=2372042343&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48346019",
       "title": "Restartable Sequences",
       "url": "https://justine.lol/rseq/",
-      "excerpt": "Hacker News · 28 pts · 8 comments",
+      "excerpt": "Hacker News · 33 pts · 8 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780238328000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Restartable%20Sequences.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325087406",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Restartable%20Sequences.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325087406&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789595",
@@ -95,7 +112,9 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780238055000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1zs5kiprh3u51iiraj79.png"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20The%20Mobile%20Testing%20Stack%20Just%20Got%20Unbundled.%20Context%3A%20What%20Google%20I%2FO%202026%20actually%20changed%2C%20and%20why%20we've%20been%20refreshing%20the%20announcement%20page%20all....%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20log?width=1600&height=900&nologo=true&seed=2372041447&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789582",
@@ -105,7 +124,7 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780237857000,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpj8dqqosrt9lcfkszt21.png"
+      "image": "https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpj8dqqosrt9lcfkszt21.png"
     },
     {
       "id": "ai-3789563",
@@ -115,7 +134,7 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780237769000,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmkogwnm1o9czrxbw6bsm.png"
+      "image": "https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmkogwnm1o9czrxbw6bsm.png"
     },
     {
       "id": "ai-3789559",
@@ -125,7 +144,7 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780237726000,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7c99cyu8gyj6q4t3dl6s.png"
+      "image": "https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7c99cyu8gyj6q4t3dl6s.png"
     },
     {
       "id": "ai-3789558",
@@ -135,7 +154,9 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780237703000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjgw3sfvd0tlii868h8gv.png"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20I%20Asked%20My%20AI%20Agents%20to%20Find%20Me%20a%20Product.%20Their%20Best%20Work%20Was%20Killing%20Two%20of%20My%20Own%20Ideas..%20Context%3A%20I%20run%20a%20small%20fleet%20of%20AI%20coding%20agents.%20They%20build%20and%20maintain%20my%20projects%2C%20one%20writes%20code%2C%20one....%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20compositio?width=1600&height=900&nologo=true&seed=2372041326&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789557",
@@ -145,29 +166,31 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780237693000,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4rzruc7qatnk5lb0140o.png"
+      "image": "https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4rzruc7qatnk5lb0140o.png"
     },
     {
       "id": "hn-48345896",
       "title": "The solution might be cancelling my AI subscription",
       "url": "https://thoughts.hmmz.org/2026-05-31.html",
-      "excerpt": "Hacker News · 103 pts · 54 comments",
+      "excerpt": "Hacker News · 114 pts · 61 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780237410000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20The%20solution%20might%20be%20cancelling%20my%20AI%20subscription.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325065548",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20The%20solution%20might%20be%20cancelling%20my%20AI%20subscription.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325065548&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48345840",
       "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
       "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
-      "excerpt": "Hacker News · 149 pts · 78 comments",
+      "excerpt": "Hacker News · 150 pts · 80 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780236800000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Cloudflare%20Turnstile%20requiring%20fingerprintable%20WebGL.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325065387",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Cloudflare%20Turnstile%20requiring%20fingerprintable%20WebGL.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325065387&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "bbc-6-https://www.bbc.com/news/articles/c86dxvql3qno?at_medium=RSS&amp;at_campaign=rss",
@@ -183,12 +206,13 @@
       "id": "hn-48345694",
       "title": "I Put a Datacenter GPU in My Gaming PC for £200",
       "url": "https://blog.tymscar.com/posts/v100localllm/",
-      "excerpt": "Hacker News · 116 pts · 62 comments",
+      "excerpt": "Hacker News · 123 pts · 65 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780235596000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20I%20Put%20a%20Datacenter%20GPU%20in%20My%20Gaming%20PC%20for%20%C2%A3200.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325063624",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20I%20Put%20a%20Datacenter%20GPU%20in%20My%20Gaming%20PC%20for%20%C2%A3200.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325063624&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789181",
@@ -198,7 +222,9 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780233468000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F08plgg51j10yoraf1d9o.png"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20AI%20doesn't%20fail%20because%20the%20model%20is%20bad.%20It%20fails%20because%20there's%20nothing%20underneath%20it.%20Context%3A%20There's%20a%20question%20every%20system%20runs%20into%20the%20moment%20it%20goes%20to%20production%20and%20starts%20doing%20real....%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20na?width=1600&height=900&nologo=true&seed=2372037568&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789215",
@@ -208,7 +234,9 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780232755000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbdo4kmuv1z7fxnq00yr9.png"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20AI%20Won't%20Save%20You%20From%20Forgetting%20How%20to%20Think.%20Context%3A%20I%20want%20to%20make%20a%20claim%20that%20might%20age%20badly%2C%20and%20I'm%20making%20it%20anyway.%20The%20more%20we%20offload%20thinking....%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text?width=1600&height=900&nologo=true&seed=2372038316&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "ai-3789086",
@@ -218,28 +246,19 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780231063000,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi80uwps64ydzmdh87dyu.png"
+      "image": "https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi80uwps64ydzmdh87dyu.png"
     },
     {
       "id": "hn-48345201",
       "title": "Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6",
       "url": "https://kenforthewin.github.io/atomic-editor/",
-      "excerpt": "Hacker News · 16 pts · 6 comments",
+      "excerpt": "Hacker News · 18 pts · 6 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780230774000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Show%20HN%3A%20Atomic%20Editor%20%E2%80%93%20Obsidian-style%20live%20preview%20for%20CodeMirror%206.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325059498",
-      "imageGenerated": true
-    },
-    {
-      "id": "bbc-5-https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&amp;at_campaign=rss",
-      "title": "Israel seizes castle in Lebanon as it expands ground offensive",
-      "url": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&amp;at_campaign=rss",
-      "excerpt": "The Israeli military says everyone south of the Zahrani river should leave, after it captured the strategic Beaufort Castle.",
-      "source": "BBC World",
-      "category": "world",
-      "time": 1780229904000,
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1d5/live/7e11c3d0-5cdc-11f1-89a3-d1f559421220.jpg"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Show%20HN%3A%20Atomic%20Editor%20%E2%80%93%20Obsidian-style%20live%20preview%20for%20CodeMirror%206.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325059498&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "bbc-7-https://www.bbc.com/news/articles/cz02zgkgn08o?at_medium=RSS&amp;at_campaign=rss",
@@ -255,15 +274,16 @@
       "id": "hn-48344961",
       "title": "Dav2d",
       "url": "https://jbkempf.com/blog/2026/dav2d/",
-      "excerpt": "Hacker News · 271 pts · 81 comments",
+      "excerpt": "Hacker News · 273 pts · 81 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780227885000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Dav2d.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325036620",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Dav2d.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325036620&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
-      "id": "bbc-0-https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&amp;at_campaign=rss",
+      "id": "bbc-1-https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&amp;at_campaign=rss",
       "title": "Hundreds arrested and dozens of police injured after Champions League riots in France",
       "url": "https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&amp;at_campaign=rss",
       "excerpt": "Nearly 800 people were arrested after clashes with police which saw 219 people injured, including 57 police officers.",
@@ -280,32 +300,34 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780221025000,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3z49tn555ki69rsclnqu.png"
+      "image": "https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3z49tn555ki69rsclnqu.png"
     },
     {
       "id": "hn-48343714",
       "title": "London's Free Roof Terraces",
       "url": "https://diamondgeezer.blogspot.com/2026/05/londons-free-roof-terraces.html",
-      "excerpt": "Hacker News · 192 pts · 94 comments",
+      "excerpt": "Hacker News · 193 pts · 94 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780211778000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20London's%20Free%20Roof%20Terraces.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325004755",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20London's%20Free%20Roof%20Terraces.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325004755&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48343683",
       "title": "The Website Specification",
       "url": "https://specification.website/",
-      "excerpt": "Hacker News · 340 pts · 136 comments",
+      "excerpt": "Hacker News · 342 pts · 136 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780211390000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20The%20Website%20Specification.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325004010",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20The%20Website%20Specification.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2325004010&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
-      "id": "bbc-2-https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&amp;at_campaign=rss",
+      "id": "bbc-3-https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&amp;at_campaign=rss",
       "title": "Ebola spread in DR Congo 'deeply alarming', MSF warns",
       "url": "https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&amp;at_campaign=rss",
       "excerpt": "The medical charity's comments come as the head of the World Health Organization visits the region worst-hit by the virus outbreak.",
@@ -315,7 +337,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc88/live/4ffbbcb0-5c6b-11f1-bb7c-79c4d11ae224.jpg"
     },
     {
-      "id": "bbc-1-https://www.bbc.com/news/articles/cp8p4ejy8ppo?at_medium=RSS&amp;at_campaign=rss",
+      "id": "bbc-2-https://www.bbc.com/news/articles/cp8p4ejy8ppo?at_medium=RSS&amp;at_campaign=rss",
       "title": "Japan defence minister denies militarism and criticises China's 'huge arsenal'",
       "url": "https://www.bbc.com/news/articles/cp8p4ejy8ppo?at_medium=RSS&amp;at_campaign=rss",
       "excerpt": "Shinjiro Koizumi makes some of Tokyo's most pointed remarks yet in the dispute over Japan's military build-up.",
@@ -332,7 +354,9 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780198746000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2FRIxwWUD.jpeg"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Claude%20vs%20Gemini%20Across%204%20Security%20Domains%3A%20A%20Dead%20Heat%20%E2%80%94%20and%20the%20Hardening%2063%25%20of%20AI%20Code%20Skips.%20Context%3A%20Same%20prompts%2C%20both%20CLIs%2C%20scored%20by%20the%20ESLint%20security%20plugins%20I%20wrote.%20Gemini%20tied%20Claude%20on%20JWT%20and%20MongoDB%2C%20won%20the%20NestJS%20round%2C%20and%20never%20shipped%20a%20high-severity%20injection%20bug.%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus?width=1600&height=900&nologo=true&seed=2371924051&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "bbc-14-https://www.bbc.com/news/videos/c809nj57drxo?at_medium=RSS&amp;at_campaign=rss",
@@ -362,19 +386,21 @@
       "source": "Hacker News",
       "category": "tech",
       "time": 1780178798000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Shantell%20Sans%20(2023).%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2324938599",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Shantell%20Sans%20(2023).%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2324938599&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48340910",
       "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
       "url": "https://av2.aomedia.org",
-      "excerpt": "Hacker News · 289 pts · 132 comments",
+      "excerpt": "Hacker News · 290 pts · 133 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780177578000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20The%20AV2%20Video%20Standard%20Has%20Released%20(Final%20v1.0%20Specification).%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2324917300",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20The%20AV2%20Video%20Standard%20Has%20Released%20(Final%20v1.0%20Specification).%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2324917300&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48340411",
@@ -384,8 +410,9 @@
       "source": "Hacker News",
       "category": "tech",
       "time": 1780173657000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Domain%20expertise%20has%20always%20been%20the%20real%20moat.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2324912496",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Domain%20expertise%20has%20always%20been%20the%20real%20moat.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2324912496&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "bbc-8-https://www.bbc.com/news/articles/cvgzy64j9l1o?at_medium=RSS&amp;at_campaign=rss",
@@ -415,7 +442,9 @@
       "source": "Dev.to",
       "category": "ai",
       "time": 1780156854000,
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu5tswrazjdxvdqbz4j7t.png"
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20I%20Made%20My%20AI%20Models%20Argue%2C%20Then%20Let%20Hermes%20Be%20the%20Judge.%20Context%3A%20A%20%240%20multi-model%20decision%20agent%3A%20three%20LLMs%20debate%2C%20Hermes%20judges%2C%20and%20it%20learns%20who%20to%20trust..%20Visual%20style%3A%20futuristic%20AI%20research%20lab%2C%20holographic%20displays%2C%20cool%20blue%20tones%2C%20National%20Geographic%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20tex?width=1600&height=900&nologo=true&seed=2371769266&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "bbc-10-https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&amp;at_campaign=rss",
@@ -455,52 +484,57 @@
       "source": "Hacker News",
       "category": "tech",
       "time": 1780063679000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20One%20year%20of%20Roto%2C%20a%20compiled%20scripting%20language%20for%20Rust.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2323153837",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20One%20year%20of%20Roto%2C%20a%20compiled%20scripting%20language%20for%20Rust.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2323153837&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48321089",
       "title": "Security Envelope Pattern collection – S.E.C.R.E.T",
       "url": "https://secret-archive.org/",
-      "excerpt": "Hacker News · 58 pts · 6 comments",
+      "excerpt": "Hacker News · 59 pts · 6 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780048153000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Security%20Envelope%20Pattern%20collection%20%E2%80%93%20S.E.C.R.E.T.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2323091626",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Security%20Envelope%20Pattern%20collection%20%E2%80%93%20S.E.C.R.E.T.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2323091626&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48318624",
       "title": "A Gentle Introduction to Lattice-Based Cryptography [pdf]",
       "url": "https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf",
-      "excerpt": "Hacker News · 133 pts · 12 comments",
+      "excerpt": "Hacker News · 134 pts · 12 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780024939000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20A%20Gentle%20Introduction%20to%20Lattice-Based%20Cryptography%20%5Bpdf%5D.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2322382217",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20A%20Gentle%20Introduction%20to%20Lattice-Based%20Cryptography%20%5Bpdf%5D.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2322382217&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48318402",
       "title": "I found a seashell in the middle of the desert",
       "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
-      "excerpt": "Hacker News · 383 pts · 103 comments",
+      "excerpt": "Hacker News · 384 pts · 104 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780022983000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20I%20found%20a%20seashell%20in%20the%20middle%20of%20the%20desert.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2322380231",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20I%20found%20a%20seashell%20in%20the%20middle%20of%20the%20desert.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2322380231&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     },
     {
       "id": "hn-48298819",
       "title": "Thornton Wilder's Last Play Vanished into Thin Air. Or Did It?",
       "url": "https://www.nytimes.com/2026/05/27/theater/thornton-wilder-emporium-last-play.html",
-      "excerpt": "Hacker News · 8 pts · 1 comments",
+      "excerpt": "Hacker News · 9 pts · 1 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1779908192000,
-      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Thornton%20Wilder's%20Last%20Play%20Vanished%20into%20Thin%20Air.%20Or%20Did%20It%3F.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2301143130",
-      "imageGenerated": true
+      "image": "https://image.pollinations.ai/prompt/Award-winning%20editorial%20news%20photograph.%20Subject%3A%20Thornton%20Wilder's%20Last%20Play%20Vanished%20into%20Thin%20Air.%20Or%20Did%20It%3F.%20Visual%20style%3A%20cutting-edge%20technology%2C%20sleek%20hardware%2C%20modern%20office%2C%20Wired%20magazine%20cover%20quality.%20Ultra%20high%20resolution%2C%208K%20clarity%2C%20tack%20sharp%20focus%2C%20professional%20color%20grading%2C%20HDR%2C%20magazine%20cover%20quality.%20Cinematic%2016%3A9%20composition%2C%20natural%20lighting%2C%20depth%20of%20field.%20No%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20overlaid%20graphics%2C%20no%20identifiable%20celebrity%20faces.?width=1600&height=900&nologo=true&seed=2301143130&model=flux&enhance=true",
+      "imageGenerated": true,
+      "imageQuality": "hq"
     }
   ]
 }
