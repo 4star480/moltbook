@@ -1,9 +1,9 @@
 [build]
+  command = "node scripts/refresh-news.mjs"
   publish = "."
-  # Static site: index.html + css/ + js/
+  functions = "netlify/functions"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/api/news"
+  to = "/.netlify/functions/news"
   status = 200
-  force = false

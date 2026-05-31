@@ -1,0 +1,488 @@
+{
+  "updatedAt": "2026-05-31T15:53:31.379Z",
+  "refreshMinutes": 10,
+  "brief": "The wires are busy: From Specs to Tickets: Automating Jira Setup with Node.js and the Jira API · Daily pill can double survival time for deadliest cancer, trial shows · Laos cave survivors help with plan to find last two missing men. This brief refreshes every ten minutes with live AI, technology, and world reporting.",
+  "errors": [],
+  "stories": [
+    {
+      "id": "bbc-3-https://www.bbc.com/news/articles/c8094jdpzv3o?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Laos cave survivors help with plan to find last two missing men",
+      "url": "https://www.bbc.com/news/articles/c8094jdpzv3o?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "So far, five men have been freed from the narrow, flooded cave but efforts are ongoing to locate two more.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780242762000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60a6/live/b5404b50-5ce2-11f1-81d4-4b01427112e9.jpg"
+    },
+    {
+      "id": "hn-48346629",
+      "title": "Daily pill can double survival time for deadliest cancer, trial shows",
+      "url": "https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial",
+      "excerpt": "Hacker News · 5 pts · 0 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780242209000,
+      "image": null
+    },
+    {
+      "id": "ai-3789767",
+      "title": "From Specs to Tickets: Automating Jira Setup with Node.js and the Jira API",
+      "url": "https://dev.to/constanza_diaz_dev/from-specs-to-tickets-automating-jira-setup-with-nodejs-and-the-jira-api-3j9f",
+      "excerpt": "The plan was simple Take the specs we'd written, turn them into Jira epics, stories and...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780240778000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frk27hyfekrbsofyzszsg.png"
+    },
+    {
+      "id": "ai-3789766",
+      "title": "Notes on Federated Learning and Differential Privacy",
+      "url": "https://dev.to/member_2e5ba30f/notes-on-federated-learning-and-differential-privacy-3cmn",
+      "excerpt": "Notes on Federated Learning and Differential Privacy 2026-05-31 · privacy-preserving...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780240752000,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6hzdoyi7elduxn1s6q4b.png"
+    },
+    {
+      "id": "bbc-4-https://www.bbc.com/news/articles/c2027g423glo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Colombia votes in presidential election that could redefine relations with US",
+      "url": "https://www.bbc.com/news/articles/c2027g423glo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "The election is held after months of public recrimination between current left-wing President Gustavo Petro and his US counterpart Donald Trump.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780240118000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b62/live/c71dea20-5cf7-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "id": "hn-48346257",
+      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+      "url": "https://prismml.com/news/bonsai-image-4b",
+      "excerpt": "Hacker News · 27 pts · 7 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780239892000,
+      "image": null
+    },
+    {
+      "id": "ai-3789672",
+      "title": "How We Built a CTO-Grade Grafana Dashboard With Codex",
+      "url": "https://dev.to/alexanderschneider/how-we-built-a-cto-grade-grafana-dashboard-with-codex-1oc5",
+      "excerpt": "A practical playbook for using Codex, Grafana, dashboards-as-code, and tests to build an observability dashboard that answers real operational questions.",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780239449000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffhcj5ujbeayx84jdhkfx.png"
+    },
+    {
+      "id": "hn-48346019",
+      "title": "Restartable Sequences",
+      "url": "https://justine.lol/rseq/",
+      "excerpt": "Hacker News · 23 pts · 7 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780238328000,
+      "image": null
+    },
+    {
+      "id": "ai-3789595",
+      "title": "The Mobile Testing Stack Just Got Unbundled",
+      "url": "https://dev.to/qapilot/the-mobile-testing-stack-just-got-unbundled-51an",
+      "excerpt": "What Google I/O 2026 actually changed, and why we've been refreshing the announcement page all...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780238055000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1zs5kiprh3u51iiraj79.png"
+    },
+    {
+      "id": "ai-3789582",
+      "title": "Hermes Quant: Zero-Cost Autonomous Equity Research Agent Powered by Hermes 3",
+      "url": "https://dev.to/atharva_atal_81ebd973b4ad/hermes-quant-zero-cost-autonomous-equity-research-agent-powered-by-hermes-3-3mn0",
+      "excerpt": "This is a submission for the Hermes Agent Challenge: Build With Hermes Agent 🛠️ What I...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780237857000,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpj8dqqosrt9lcfkszt21.png"
+    },
+    {
+      "id": "ai-3789563",
+      "title": "AI as Operator, Not Controller: The Multi-Actor Execution Model",
+      "url": "https://dev.to/markin/ai-as-operator-not-controller-the-multi-actor-execution-model-3c58",
+      "excerpt": "Originally published at docs.cmdop.com/blog/execution-state-continuity-04-ai-as-operator — part of...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780237769000,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmkogwnm1o9czrxbw6bsm.png"
+    },
+    {
+      "id": "ai-3789559",
+      "title": "Persistent Memory Is Not Persistent Execution State",
+      "url": "https://dev.to/markin/persistent-memory-is-not-persistent-execution-state-8fd",
+      "excerpt": "The most common category error in AI-agent design — and why remembering a conversation is not the...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780237726000,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7c99cyu8gyj6q4t3dl6s.png"
+    },
+    {
+      "id": "ai-3789558",
+      "title": "I Asked My AI Agents to Find Me a Product. Their Best Work Was Killing Two of My Own Ideas.",
+      "url": "https://dev.to/wrg11/i-asked-my-ai-agents-to-find-me-a-product-their-best-work-was-killing-two-of-my-own-ideas-3on4",
+      "excerpt": "I run a small fleet of AI coding agents. They build and maintain my projects, one writes code, one...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780237703000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjgw3sfvd0tlii868h8gv.png"
+    },
+    {
+      "id": "ai-3789557",
+      "title": "The Missing Layer: Why AI-Native Systems Need Execution-State Continuity",
+      "url": "https://dev.to/markin/the-missing-layer-why-ai-native-systems-need-execution-state-continuity-5c0p",
+      "excerpt": "We built persistent memory. We built workflow orchestration. We never built the layer that keeps the...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780237693000,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4rzruc7qatnk5lb0140o.png"
+    },
+    {
+      "id": "hn-48345896",
+      "title": "The solution might be cancelling my AI subscription",
+      "url": "https://thoughts.hmmz.org/2026-05-31.html",
+      "excerpt": "Hacker News · 82 pts · 40 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780237410000,
+      "image": null
+    },
+    {
+      "id": "hn-48345840",
+      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
+      "excerpt": "Hacker News · 133 pts · 67 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780236800000,
+      "image": null
+    },
+    {
+      "id": "bbc-6-https://www.bbc.com/news/articles/c86dxvql3qno?at_medium=RSS&amp;at_campaign=rss",
+      "title": "South Africa made to look like fools over World Cup visa issues, says minister",
+      "url": "https://www.bbc.com/news/articles/c86dxvql3qno?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "The country's football association says it is working to resolve the problems that have delayed the team's departure to Mexico.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780236114000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cd3/live/e9e42f20-5cce-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "id": "hn-48345694",
+      "title": "I Put a Datacenter GPU in My Gaming PC for £200",
+      "url": "https://blog.tymscar.com/posts/v100localllm/",
+      "excerpt": "Hacker News · 105 pts · 57 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780235596000,
+      "image": null
+    },
+    {
+      "id": "ai-3789181",
+      "title": "AI doesn't fail because the model is bad. It fails because there's nothing underneath it",
+      "url": "https://dev.to/norbertrosenwinkel/ai-doesnt-fail-because-the-model-is-bad-it-fails-because-theres-nothing-underneath-it-1p1g",
+      "excerpt": "There's a question every system runs into the moment it goes to production and starts doing real...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780233468000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F08plgg51j10yoraf1d9o.png"
+    },
+    {
+      "id": "ai-3789215",
+      "title": "AI Won't Save You From Forgetting How to Think",
+      "url": "https://dev.to/olehvolos/ai-wont-save-you-from-forgetting-how-to-think-55mp",
+      "excerpt": "I want to make a claim that might age badly, and I'm making it anyway. The more we offload thinking...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780232755000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbdo4kmuv1z7fxnq00yr9.png"
+    },
+    {
+      "id": "ai-3789086",
+      "title": "Progressive Distillation",
+      "url": "https://dev.to/neuml/progressive-distillation-341i",
+      "excerpt": "Now that almost everyone has thought about or is actively integrating AI workflows into their...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780231063000,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi80uwps64ydzmdh87dyu.png"
+    },
+    {
+      "id": "hn-48345201",
+      "title": "Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6",
+      "url": "https://kenforthewin.github.io/atomic-editor/",
+      "excerpt": "Hacker News · 15 pts · 6 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780230774000,
+      "image": null
+    },
+    {
+      "id": "bbc-5-https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Israel seizes castle in Lebanon as it expands ground offensive",
+      "url": "https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "The Israeli military says everyone south of the Zahrani river should leave, after it captured the strategic Beaufort Castle.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780229904000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1d5/live/7e11c3d0-5cdc-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "id": "bbc-7-https://www.bbc.com/news/articles/cz02zgkgn08o?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Nigerian retired general abducted with his wife in the north-west",
+      "url": "https://www.bbc.com/news/articles/cz02zgkgn08o?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Maj Gen Rabe Abubakar's kidnapping highlights continuing security challenges facing parts of the country.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780229492000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fcd/live/c841d5e0-5ce5-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "id": "hn-48344961",
+      "title": "Dav2d",
+      "url": "https://jbkempf.com/blog/2026/dav2d/",
+      "excerpt": "Hacker News · 265 pts · 77 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780227885000,
+      "image": null
+    },
+    {
+      "id": "bbc-0-https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Hundreds arrested and dozens of police injured after Champions League riots in France",
+      "url": "https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Nearly 800 people were arrested after clashes with police which saw 219 people injured, including 57 police officers.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780226768000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1402/live/6a759400-5ce6-11f1-81d4-4b01427112e9.jpg"
+    },
+    {
+      "id": "ai-3788272",
+      "title": "Top API Gateways for AI Applications and Agentic Workflows",
+      "url": "https://dev.to/hadil/top-api-gateways-for-ai-applications-and-agentic-workflows-4jd9",
+      "excerpt": "Top API Gateways for AI Applications and Agentic Workflows (2026 Developer Guide) ...",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780221025000,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3z49tn555ki69rsclnqu.png"
+    },
+    {
+      "id": "hn-48343714",
+      "title": "London's Free Roof Terraces",
+      "url": "https://diamondgeezer.blogspot.com/2026/05/londons-free-roof-terraces.html",
+      "excerpt": "Hacker News · 189 pts · 93 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780211778000,
+      "image": null
+    },
+    {
+      "id": "hn-48343683",
+      "title": "The Website Specification",
+      "url": "https://specification.website/",
+      "excerpt": "Hacker News · 335 pts · 135 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780211390000,
+      "image": null
+    },
+    {
+      "id": "bbc-2-https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Ebola spread in DR Congo 'deeply alarming', MSF warns",
+      "url": "https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "The medical charity's comments come as the head of the World Health Organization visits the region worst-hit by the virus outbreak.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780210025000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc88/live/4ffbbcb0-5c6b-11f1-bb7c-79c4d11ae224.jpg"
+    },
+    {
+      "id": "bbc-1-https://www.bbc.com/news/articles/cp8p4ejy8ppo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Japan defence minister denies militarism and criticises China's 'huge arsenal'",
+      "url": "https://www.bbc.com/news/articles/cp8p4ejy8ppo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Shinjiro Koizumi makes some of Tokyo's most pointed remarks yet in the dispute over Japan's military build-up.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780209244000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5410/live/aadfb9d0-5cb9-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "id": "hn-48343424",
+      "title": "Avian Visitors",
+      "url": "https://theodore.net/projects/AvianVisitors/",
+      "excerpt": "Hacker News · 90 pts · 7 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780208039000,
+      "image": null
+    },
+    {
+      "id": "ai-3785746",
+      "title": "Claude vs Gemini Across 4 Security Domains: A Dead Heat — and the Hardening 63% of AI Code Skips",
+      "url": "https://dev.to/ofri-peretz/claude-vs-gemini-across-4-security-domains-a-dead-heat-and-the-hardening-63-of-ai-code-skips-mpp",
+      "excerpt": "Same prompts, both CLIs, scored by the ESLint security plugins I wrote. Gemini tied Claude on JWT and MongoDB, won the NestJS round, and never shipped a high-severity injection bug. The real finding: both frontier models",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780198746000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2FRIxwWUD.jpeg"
+    },
+    {
+      "id": "bbc-14-https://www.bbc.com/news/videos/c809nj57drxo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Cuba’s blackouts leave high-rise residents with constant uncertainty",
+      "url": "https://www.bbc.com/news/videos/c809nj57drxo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Will Grant spoke to a 70-year-old widow who says the inability to use her building's elevator during a power outage trapped her and her husband when he needed medical care.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780186316000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50d6/live/db12fec0-5b81-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "id": "bbc-13-https://www.bbc.com/news/articles/cddpl33v247o?at_medium=RSS&amp;at_campaign=rss",
+      "title": "How Putin became master of the image",
+      "url": "https://www.bbc.com/news/articles/cddpl33v247o?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "From enigmatic KGB agent to wartime ruler, this is how Putin has repeatedly reinvented his image, and himself.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780183046000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f9e/live/3997c490-5b68-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "id": "hn-48341062",
+      "title": "Shantell Sans (2023)",
+      "url": "https://shantellsans.com/process",
+      "excerpt": "Hacker News · 345 pts · 40 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780178798000,
+      "image": null
+    },
+    {
+      "id": "hn-48340910",
+      "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
+      "url": "https://av2.aomedia.org",
+      "excerpt": "Hacker News · 288 pts · 130 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780177578000,
+      "image": null
+    },
+    {
+      "id": "hn-48340411",
+      "title": "Domain expertise has always been the real moat",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "excerpt": "Hacker News · 748 pts · 443 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780173657000,
+      "image": null
+    },
+    {
+      "id": "bbc-8-https://www.bbc.com/news/articles/cvgzy64j9l1o?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Oscar-winning Star Wars editor Marcia Lucas dies aged 80",
+      "url": "https://www.bbc.com/news/articles/cvgzy64j9l1o?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "The film editor and ex-wife of director George Lucas was widely recognised as a pivotal creative force behind the original space trilogy.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780164220000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d20c/live/f4840710-5c48-11f1-aa7a-8946e5cbf1e0.jpg"
+    },
+    {
+      "id": "bbc-9-https://www.bbc.com/news/articles/cy02j1n87wlo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Trump attacks artists dropping out of US Freedom 250 concert and mulls appearing himself",
+      "url": "https://www.bbc.com/news/articles/cy02j1n87wlo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Performers Young MC, Poison frontman Bret Michaels and country singer Martina McBride raised concerns the event will be political.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780162847000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ab4/live/e1e35f40-5b97-11f1-aabb-c99c4270115d.jpg"
+    },
+    {
+      "id": "ai-3780124",
+      "title": "I Made My AI Models Argue, Then Let Hermes Be the Judge",
+      "url": "https://dev.to/arqamwd/i-made-my-ai-models-argue-then-let-hermes-be-the-judge-5e6c",
+      "excerpt": "A $0 multi-model decision agent: three LLMs debate, Hermes judges, and it learns who to trust.",
+      "source": "Dev.to",
+      "category": "ai",
+      "time": 1780156854000,
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu5tswrazjdxvdqbz4j7t.png"
+    },
+    {
+      "id": "bbc-10-https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Italy bans Kanye West and Travis Scott concerts over security concerns",
+      "url": "https://www.bbc.com/news/articles/c3d27x5vnnvo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Local authorities say the cancellation of other West concerts had played a role in the decision.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780155552000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50bf/live/654e96a0-5c34-11f1-9597-5f5d9cc81ab3.jpg"
+    },
+    {
+      "id": "bbc-11-https://www.bbc.com/news/articles/c5y8wjvd1ypo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "US, UK and Australia to develop underwater drone technology",
+      "url": "https://www.bbc.com/news/articles/c5y8wjvd1ypo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "The technology, developed under the Aukus military pact, is aimed at protecting undersea cables and boosting naval defence.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780143386000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0891/live/b13d4110-5c1b-11f1-92d1-ab2daf594570.jpg"
+    },
+    {
+      "id": "bbc-12-https://www.bbc.com/news/articles/cn4pn4ex0ymo?at_medium=RSS&amp;at_campaign=rss",
+      "title": "Four more men freed from flooded Laos cave after 10 days",
+      "url": "https://www.bbc.com/news/articles/cn4pn4ex0ymo?at_medium=RSS&amp;at_campaign=rss",
+      "excerpt": "Two of the seven villagers who entered the narrow tunnels in search for gold on 20 May are still missing.",
+      "source": "BBC World",
+      "category": "world",
+      "time": 1780134656000,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c09/live/76fe2590-5c12-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "id": "hn-48323303",
+      "title": "One year of Roto, a compiled scripting language for Rust",
+      "url": "https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/",
+      "excerpt": "Hacker News · 89 pts · 17 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780063679000,
+      "image": null
+    },
+    {
+      "id": "hn-48321089",
+      "title": "Security Envelope Pattern collection – S.E.C.R.E.T",
+      "url": "https://secret-archive.org/",
+      "excerpt": "Hacker News · 57 pts · 6 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780048153000,
+      "image": null
+    },
+    {
+      "id": "hn-48318624",
+      "title": "A Gentle Introduction to Lattice-Based Cryptography [pdf]",
+      "url": "https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf",
+      "excerpt": "Hacker News · 131 pts · 11 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780024939000,
+      "image": null
+    },
+    {
+      "id": "hn-48318402",
+      "title": "I found a seashell in the middle of the desert",
+      "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
+      "excerpt": "Hacker News · 381 pts · 103 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1780022983000,
+      "image": null
+    }
+  ]
+}
