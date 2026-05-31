@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moltbook — AI, Tech & World News</title>
+  <meta name="description" content="Curated AI breakthroughs, technology headlines, and world news — updated live from trusted public sources." />
+  <meta name="theme-color" content="#0c0f14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to stories</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-text">
+          <strong>Moltbook</strong>
+          <small>Intelligence Brief</small>
+        </span>
+      </a>
+
+      <nav class="nav-tabs" aria-label="News categories">
+        <button type="button" class="nav-tab is-active" data-filter="all">All</button>
+        <button type="button" class="nav-tab" data-filter="ai">AI</button>
+        <button type="button" class="nav-tab" data-filter="tech">Tech</button>
+        <button type="button" class="nav-tab" data-filter="world">World</button>
+      </nav>
+
+      <div class="header-actions">
+        <label class="search-wrap">
+          <span class="sr-only">Search headlines</span>
+          <input type="search" id="search" placeholder="Search headlines…" autocomplete="off" />
+        </label>
+        <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle light mode">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" id="refresh-btn" class="btn btn-primary">Refresh</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="ticker" aria-live="polite">
+    <span class="ticker-label">Live</span>
+    <div class="ticker-track" id="ticker"></div>
+  </div>
+
+  <main id="main" class="main">
+    <section class="hero" id="hero" aria-label="Featured story">
+      <div class="hero-skeleton skeleton-block"></div>
+    </section>
+
+    <section class="stats-bar" aria-label="Feed status">
+      <p id="status-text">Loading latest stories…</p>
+      <p id="updated-at" class="muted"></p>
+    </section>
+
+    <section class="feed-section">
+      <div class="section-head">
+        <h2>Latest headlines</h2>
+        <p class="muted">AI from Dev.to · Tech from Hacker News · World from BBC</p>
+      </div>
+      <div id="feed" class="feed-grid" aria-live="polite"></div>
+      <div id="feed-empty" class="feed-empty hidden">
+        <p>No stories match your search. Try another keyword or category.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>Moltbook</strong>
+        <p class="muted">A modern news reader for AI, technology, and global headlines. Stories link to original publishers.</p>
+      </div>
+      <div class="footer-sources">
+        <span>Sources:</span>
+        <a href="https://dev.to" target="_blank" rel="noopener">Dev.to</a>
+        <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a>
+        <a href="https://www.bbc.com/news/world" target="_blank" rel="noopener">BBC World</a>
+      </div>
+      <p class="footer-copy muted">&copy; <span id="year"></span> Moltbook. Built for information — not affiliation.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
