@@ -5,6 +5,10 @@ dist/
 .env
 .env.local
 
+assets/generated/*
+!assets/generated/.gitkeep
+data/image-cache.json
+
 # Local data / scraping artifacts (not part of the site)
 emails_*.txt
 emails_only.txt

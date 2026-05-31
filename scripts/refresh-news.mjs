@@ -9,6 +9,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { homedir } from "os";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { enrichStoryImages } from "../lib/story-images.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dir, "..");
@@ -201,6 +202,18 @@ async function main() {
     if (picks.length) {
       brief = `The wires are busy: ${picks.join(" · ")}. This brief refreshes every ten minutes with live AI, technology, and world reporting.`;
     }
+  }
+
+  const missingImages = stories.filter((s) => !s.image).length;
+  if (missingImages) {
+    console.log(`Generating contextual images for ${missingImages} stories…`);
+    const imgResult = await enrichStoryImages(stories, {
+      apiKey: key,
+      root: ROOT,
+      maxGenerate: 8,
+      persist: true,
+    });
+    console.log(`Images: ${imgResult.geminiCount} Gemini, ${imgResult.contextual} contextual total.`);
   }
 
   const payload = {

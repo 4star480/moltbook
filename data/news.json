@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T15:58:57.586Z",
+  "updatedAt": "2026-05-31T16:06:04.360Z",
   "refreshMinutes": 10,
   "brief": "The wires are busy: From Specs to Tickets: Automating Jira Setup with Node.js and the Jira API · Daily pill can double survival time for deadliest cancer, trial shows · Laos cave survivors help with plan to find last two missing men. This brief refreshes every ten minutes with live AI, technology, and world reporting.",
   "errors": [],
@@ -18,11 +18,12 @@
       "id": "hn-48346629",
       "title": "Daily pill can double survival time for deadliest cancer, trial shows",
       "url": "https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial",
-      "excerpt": "Hacker News · 7 pts · 0 comments",
+      "excerpt": "Hacker News · 11 pts · 2 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780242209000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Daily%20pill%20can%20double%20survival%20time%20for%20deadliest%20cancer%2C%20trial%20shows.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325093203",
+      "imageGenerated": true
     },
     {
       "id": "ai-3789767",
@@ -58,11 +59,12 @@
       "id": "hn-48346257",
       "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
       "url": "https://prismml.com/news/bonsai-image-4b",
-      "excerpt": "Hacker News · 32 pts · 7 comments",
+      "excerpt": "Hacker News · 35 pts · 7 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780239892000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%201-Bit%20Bonsai%20Image%204B%20Image%20Generation%20for%20Local%20Devices.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325089450",
+      "imageGenerated": true
     },
     {
       "id": "ai-3789672",
@@ -78,11 +80,12 @@
       "id": "hn-48346019",
       "title": "Restartable Sequences",
       "url": "https://justine.lol/rseq/",
-      "excerpt": "Hacker News · 26 pts · 8 comments",
+      "excerpt": "Hacker News · 28 pts · 8 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780238328000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Restartable%20Sequences.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325087406",
+      "imageGenerated": true
     },
     {
       "id": "ai-3789595",
@@ -148,21 +151,23 @@
       "id": "hn-48345896",
       "title": "The solution might be cancelling my AI subscription",
       "url": "https://thoughts.hmmz.org/2026-05-31.html",
-      "excerpt": "Hacker News · 88 pts · 45 comments",
+      "excerpt": "Hacker News · 103 pts · 54 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780237410000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20The%20solution%20might%20be%20cancelling%20my%20AI%20subscription.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325065548",
+      "imageGenerated": true
     },
     {
       "id": "hn-48345840",
       "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
       "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
-      "excerpt": "Hacker News · 139 pts · 74 comments",
+      "excerpt": "Hacker News · 149 pts · 78 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780236800000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Cloudflare%20Turnstile%20requiring%20fingerprintable%20WebGL.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325065387",
+      "imageGenerated": true
     },
     {
       "id": "bbc-6-https://www.bbc.com/news/articles/c86dxvql3qno?at_medium=RSS&amp;at_campaign=rss",
@@ -178,11 +183,12 @@
       "id": "hn-48345694",
       "title": "I Put a Datacenter GPU in My Gaming PC for £200",
       "url": "https://blog.tymscar.com/posts/v100localllm/",
-      "excerpt": "Hacker News · 111 pts · 59 comments",
+      "excerpt": "Hacker News · 116 pts · 62 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780235596000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20I%20Put%20a%20Datacenter%20GPU%20in%20My%20Gaming%20PC%20for%20%C2%A3200.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325063624",
+      "imageGenerated": true
     },
     {
       "id": "ai-3789181",
@@ -218,11 +224,12 @@
       "id": "hn-48345201",
       "title": "Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6",
       "url": "https://kenforthewin.github.io/atomic-editor/",
-      "excerpt": "Hacker News · 15 pts · 6 comments",
+      "excerpt": "Hacker News · 16 pts · 6 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780230774000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Show%20HN%3A%20Atomic%20Editor%20%E2%80%93%20Obsidian-style%20live%20preview%20for%20CodeMirror%206.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325059498",
+      "imageGenerated": true
     },
     {
       "id": "bbc-5-https://www.bbc.com/news/articles/cdep04kzz5wo?at_medium=RSS&amp;at_campaign=rss",
@@ -248,11 +255,12 @@
       "id": "hn-48344961",
       "title": "Dav2d",
       "url": "https://jbkempf.com/blog/2026/dav2d/",
-      "excerpt": "Hacker News · 267 pts · 79 comments",
+      "excerpt": "Hacker News · 271 pts · 81 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780227885000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Dav2d.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325036620",
+      "imageGenerated": true
     },
     {
       "id": "bbc-0-https://www.bbc.com/news/articles/c0r2ejg1w9xo?at_medium=RSS&amp;at_campaign=rss",
@@ -278,21 +286,23 @@
       "id": "hn-48343714",
       "title": "London's Free Roof Terraces",
       "url": "https://diamondgeezer.blogspot.com/2026/05/londons-free-roof-terraces.html",
-      "excerpt": "Hacker News · 191 pts · 93 comments",
+      "excerpt": "Hacker News · 192 pts · 94 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780211778000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20London's%20Free%20Roof%20Terraces.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325004755",
+      "imageGenerated": true
     },
     {
       "id": "hn-48343683",
       "title": "The Website Specification",
       "url": "https://specification.website/",
-      "excerpt": "Hacker News · 336 pts · 135 comments",
+      "excerpt": "Hacker News · 340 pts · 136 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780211390000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20The%20Website%20Specification.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2325004010",
+      "imageGenerated": true
     },
     {
       "id": "bbc-2-https://www.bbc.com/news/articles/c99ldxykz4zo?at_medium=RSS&amp;at_campaign=rss",
@@ -313,16 +323,6 @@
       "category": "world",
       "time": 1780209244000,
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5410/live/aadfb9d0-5cb9-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "id": "hn-48343424",
-      "title": "Avian Visitors",
-      "url": "https://theodore.net/projects/AvianVisitors/",
-      "excerpt": "Hacker News · 91 pts · 7 comments",
-      "source": "Hacker News",
-      "category": "tech",
-      "time": 1780208039000,
-      "image": null
     },
     {
       "id": "ai-3785746",
@@ -358,31 +358,34 @@
       "id": "hn-48341062",
       "title": "Shantell Sans (2023)",
       "url": "https://shantellsans.com/process",
-      "excerpt": "Hacker News · 346 pts · 40 comments",
+      "excerpt": "Hacker News · 347 pts · 40 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780178798000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Shantell%20Sans%20(2023).%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2324938599",
+      "imageGenerated": true
     },
     {
       "id": "hn-48340910",
       "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
       "url": "https://av2.aomedia.org",
-      "excerpt": "Hacker News · 289 pts · 130 comments",
+      "excerpt": "Hacker News · 289 pts · 132 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780177578000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20The%20AV2%20Video%20Standard%20Has%20Released%20(Final%20v1.0%20Specification).%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2324917300",
+      "imageGenerated": true
     },
     {
       "id": "hn-48340411",
       "title": "Domain expertise has always been the real moat",
       "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
-      "excerpt": "Hacker News · 749 pts · 444 comments",
+      "excerpt": "Hacker News · 752 pts · 445 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780173657000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Domain%20expertise%20has%20always%20been%20the%20real%20moat.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2324912496",
+      "imageGenerated": true
     },
     {
       "id": "bbc-8-https://www.bbc.com/news/articles/cvgzy64j9l1o?at_medium=RSS&amp;at_campaign=rss",
@@ -452,37 +455,52 @@
       "source": "Hacker News",
       "category": "tech",
       "time": 1780063679000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20One%20year%20of%20Roto%2C%20a%20compiled%20scripting%20language%20for%20Rust.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2323153837",
+      "imageGenerated": true
     },
     {
       "id": "hn-48321089",
       "title": "Security Envelope Pattern collection – S.E.C.R.E.T",
       "url": "https://secret-archive.org/",
-      "excerpt": "Hacker News · 57 pts · 6 comments",
+      "excerpt": "Hacker News · 58 pts · 6 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780048153000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Security%20Envelope%20Pattern%20collection%20%E2%80%93%20S.E.C.R.E.T.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2323091626",
+      "imageGenerated": true
     },
     {
       "id": "hn-48318624",
       "title": "A Gentle Introduction to Lattice-Based Cryptography [pdf]",
       "url": "https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf",
-      "excerpt": "Hacker News · 133 pts · 11 comments",
+      "excerpt": "Hacker News · 133 pts · 12 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780024939000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20A%20Gentle%20Introduction%20to%20Lattice-Based%20Cryptography%20%5Bpdf%5D.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2322382217",
+      "imageGenerated": true
     },
     {
       "id": "hn-48318402",
       "title": "I found a seashell in the middle of the desert",
       "url": "https://github.com/Hawzen/I-found-a-seashell-in-the-middle-of-the-desert#i-found-a-seashell-in-the-middle-of-the-desert",
-      "excerpt": "Hacker News · 382 pts · 103 comments",
+      "excerpt": "Hacker News · 383 pts · 103 comments",
       "source": "Hacker News",
       "category": "tech",
       "time": 1780022983000,
-      "image": null
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20I%20found%20a%20seashell%20in%20the%20middle%20of%20the%20desert.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2322380231",
+      "imageGenerated": true
+    },
+    {
+      "id": "hn-48298819",
+      "title": "Thornton Wilder's Last Play Vanished into Thin Air. Or Did It?",
+      "url": "https://www.nytimes.com/2026/05/27/theater/thornton-wilder-emporium-last-play.html",
+      "excerpt": "Hacker News · 8 pts · 1 comments",
+      "source": "Hacker News",
+      "category": "tech",
+      "time": 1779908192000,
+      "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20news%20photograph%20for%20a%20major%20news%20website.%20Subject%3A%20Thornton%20Wilder's%20Last%20Play%20Vanished%20into%20Thin%20Air.%20Or%20Did%20It%3F.%20Visual%20style%3A%20modern%20technology%20and%20innovation%2C%20clean%20editorial%20photo%2C%20Silicon%20Valley%20aesthetic.%20Natural%20lighting%2C%20photojournalistic%2C%20cinematic%2016%3A9%2C%20no%20text%2C%20no%20logos%2C%20no%20watermarks%2C%20no%20faces%20of%20real%20identifiable%20people.?width=800&height=450&nologo=true&seed=2301143130",
+      "imageGenerated": true
     }
   ]
 }

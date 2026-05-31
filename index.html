@@ -1,101 +1,117 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moltbook — AI, Tech & World News</title>
-  <meta name="description" content="Curated AI breakthroughs, technology headlines, and world news — updated live from trusted public sources." />
-  <meta name="theme-color" content="#0c0f14" />
+  <meta name="description" content="Curated AI breakthroughs, technology headlines, and world news — updated every 10 minutes from trusted sources." />
+  <meta name="theme-color" content="#ffffff" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,500&display=swap" rel="stylesheet" />
   <link rel="icon" href="assets/logo-claw.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to stories</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="/">
-        <img class="brand-logo" src="assets/logo-claw.svg" width="36" height="36" alt="" />
-        <span class="brand-text">
-          <strong>Moltbook</strong>
-          <small>Intelligence Brief</small>
-        </span>
-      </a>
-
-      <nav class="nav-tabs" aria-label="News categories">
-        <button type="button" class="nav-tab is-active" data-filter="all">All</button>
-        <button type="button" class="nav-tab" data-filter="ai">AI</button>
-        <button type="button" class="nav-tab" data-filter="tech">Tech</button>
-        <button type="button" class="nav-tab" data-filter="world">World</button>
-      </nav>
-
-      <div class="header-actions">
-        <label class="search-wrap">
-          <span class="sr-only">Search headlines</span>
-          <input type="search" id="search" placeholder="Search headlines…" autocomplete="off" />
-        </label>
-        <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle light mode">
-          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </button>
-        <button type="button" id="refresh-btn" class="btn btn-primary">Refresh</button>
+    <div class="header-top">
+      <div class="wrap header-top-inner">
+        <a class="brand" href="/">
+          <img class="brand-logo" src="assets/logo-claw.svg" width="32" height="32" alt="" />
+          <span class="brand-text"><strong>Moltbook</strong></span>
+        </a>
+        <div class="header-utils">
+          <label class="search-wrap">
+            <span class="sr-only">Search headlines</span>
+            <input type="search" id="search" placeholder="Search" autocomplete="off" />
+          </label>
+          <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <button type="button" id="refresh-btn" class="btn-refresh">Refresh</button>
+        </div>
       </div>
     </div>
+
+    <nav class="category-nav wrap" aria-label="News categories">
+      <button type="button" class="cat-link is-active" data-filter="all">Home</button>
+      <button type="button" class="cat-link" data-filter="world">World</button>
+      <button type="button" class="cat-link" data-filter="tech">Tech</button>
+      <button type="button" class="cat-link" data-filter="ai">AI</button>
+    </nav>
   </header>
 
-  <div class="ticker" aria-live="polite">
-    <span class="ticker-label">Live</span>
-    <div class="ticker-track" id="ticker"></div>
+  <div class="breaking-bar" aria-live="polite">
+    <span class="breaking-label">Breaking</span>
+    <div class="breaking-track" id="ticker"></div>
   </div>
 
-  <main id="main" class="main">
-    <section class="ai-brief" id="ai-brief" aria-label="AI intelligence summary" hidden>
-      <div class="ai-brief-inner">
-        <span class="ai-brief-label">AI Brief</span>
-        <p id="brief-text"></p>
-      </div>
+  <div class="status-strip wrap">
+    <p id="status-text">Loading latest stories…</p>
+    <p id="updated-at" class="status-meta"></p>
+    <p id="next-refresh" class="status-meta"></p>
+  </div>
+
+  <main id="main" class="wrap main">
+    <section class="editorial-brief" id="ai-brief" aria-label="Editorial summary" hidden>
+      <h2 class="section-title">Editor's pick</h2>
+      <p id="brief-text" class="brief-copy"></p>
     </section>
 
-    <section class="hero" id="hero" aria-label="Featured story">
-      <div class="hero-skeleton skeleton-block"></div>
+    <div id="home-layout">
+      <section class="lead-grid" aria-label="Top stories">
+        <div class="lead-main" id="lead-main">
+          <div class="skeleton-block lead-skeleton"></div>
+        </div>
+        <aside class="lead-sidebar" id="lead-sidebar" aria-label="More top stories"></aside>
+      </section>
+
+      <section class="news-section" id="section-world" aria-labelledby="heading-world">
+        <div class="section-head">
+          <h2 class="section-title" id="heading-world">World</h2>
+          <a class="section-more" href="#" data-filter="world">See all</a>
+        </div>
+        <div class="story-row" id="feed-world"></div>
+      </section>
+
+      <section class="news-section" id="section-tech" aria-labelledby="heading-tech">
+        <div class="section-head">
+          <h2 class="section-title" id="heading-tech">Technology</h2>
+          <a class="section-more" href="#" data-filter="tech">See all</a>
+        </div>
+        <div class="story-row" id="feed-tech"></div>
+      </section>
+
+      <section class="news-section" id="section-ai" aria-labelledby="heading-ai">
+        <div class="section-head">
+          <h2 class="section-title" id="heading-ai">Artificial Intelligence</h2>
+          <a class="section-more" href="#" data-filter="ai">See all</a>
+        </div>
+        <div class="story-row" id="feed-ai"></div>
+      </section>
+    </div>
+
+    <section id="filter-layout" class="filter-layout hidden" aria-label="Filtered stories">
+      <h2 class="section-title" id="filter-heading">All headlines</h2>
+      <div class="story-row story-row-wide" id="feed-filtered"></div>
     </section>
 
-    <section class="stats-bar" aria-label="Feed status">
-      <p id="status-text">Loading latest stories…</p>
-      <p id="updated-at" class="muted"></p>
-    </section>
-
-    <section class="feed-section">
-      <div class="section-head">
-        <h2>Latest headlines</h2>
-        <p class="muted">AI from Dev.to · Tech from Hacker News · World from BBC</p>
-      </div>
-      <div id="feed" class="feed-grid" aria-live="polite"></div>
-      <div id="feed-empty" class="feed-empty hidden">
-        <p>No stories match your search. Try another keyword or category.</p>
-      </div>
-    </section>
+    <div id="feed-empty" class="feed-empty hidden">
+      <p>No stories match your search.</p>
+    </div>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-inner">
-      <div>
-        <div class="footer-brand">
-          <img class="brand-logo brand-logo-sm" src="assets/logo-claw.svg" width="28" height="28" alt="" />
-          <strong>Moltbook</strong>
-        </div>
-        <p class="muted">A modern news reader for AI, technology, and global headlines. Stories link to original publishers.</p>
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <img class="brand-logo" src="assets/logo-claw.svg" width="24" height="24" alt="" />
+        <strong>Moltbook</strong>
       </div>
-      <div class="footer-sources">
-        <span>Sources:</span>
-        <a href="https://dev.to" target="_blank" rel="noopener">Dev.to</a>
-        <a href="https://news.ycombinator.com" target="_blank" rel="noopener">Hacker News</a>
-        <a href="https://www.bbc.com/news/world" target="_blank" rel="noopener">BBC World</a>
-      </div>
-      <p class="footer-copy muted">&copy; <span id="year"></span> Moltbook. Built for information — not affiliation.</p>
+      <p class="footer-copy">Headlines from Dev.to, Hacker News &amp; BBC World · Auto-updated every 10 minutes</p>
+      <p class="footer-copy muted">&copy; <span id="year"></span> Moltbook</p>
     </div>
   </footer>
 

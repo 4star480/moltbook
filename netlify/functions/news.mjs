@@ -3,6 +3,8 @@
  * Set GEMINI_API_KEY in Netlify env for AI summaries.
  */
 
+import { enrichStoryImages } from "../../lib/story-images.mjs";
+
 const RSS_SOURCES = [
   (url) => "https://corsproxy.io/?" + encodeURIComponent(url),
   (url) => "https://api.allorigins.win/raw?url=" + encodeURIComponent(url),
@@ -147,9 +149,16 @@ export default async () => {
     });
 
     let brief = null;
-    if (process.env.GEMINI_API_KEY) {
-      brief = await generateBrief(stories, process.env.GEMINI_API_KEY);
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (apiKey) {
+      brief = await generateBrief(stories, apiKey);
     }
+
+    await enrichStoryImages(stories, {
+      apiKey,
+      maxGenerate: 0,
+      persist: false,
+    });
 
     return new Response(
       JSON.stringify({
