@@ -5,6 +5,7 @@
 const REFRESH_MS = 10 * 60 * 1000;
 const CACHE_URL = "data/news.json";
 const IS_FILE = location.protocol === "file:";
+const MB = window.Moltbook;
 
 let allStories = [];
 let activeFilter = "all";
@@ -39,39 +40,23 @@ const els = {
 els.year.textContent = String(new Date().getFullYear());
 
 function timeAgo(ts) {
-  const diff = Date.now() - ts;
-  const mins = Math.floor(diff / 60000);
-  if (mins < 1) return "Just now";
-  if (mins < 60) return `${mins}m ago`;
-  const hrs = Math.floor(mins / 60);
-  if (hrs < 48) return `${hrs}h ago`;
-  return `${Math.floor(hrs / 24)}d ago`;
+  return MB.timeAgo(ts);
 }
 
 function tagClass(cat) {
-  if (cat === "ai") return "tag tag-ai";
-  if (cat === "world") return "tag tag-world";
-  return "tag tag-tech";
+  return MB.tagClass(cat);
 }
 
 function tagLabel(cat) {
-  if (cat === "ai") return "AI";
-  if (cat === "world") return "World";
-  return "Tech";
+  return MB.tagLabel(cat);
 }
 
-/** User-facing source names — never show publisher branding as our own. */
 function displaySource(source) {
-  const map = {
-    "BBC World": "Global Desk",
-    "Hacker News": "Tech Wire",
-    "Dev.to": "AI Pulse",
-  };
-  return map[source] || source;
+  return MB.displaySource(source);
 }
 
-function externalLink(url, title) {
-  return `<a class="story-title-link" href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>`;
+function postLink(story, title) {
+  return MB.postLink(story, title);
 }
 
 const IMG_W = 1600;
@@ -196,7 +181,7 @@ function renderLead(story) {
       ${renderImageBlock(story, "story-lead-image", "eager")}
       <div class="story-lead-body">
         <span class="${tagClass(story.category)}">${tagLabel(story.category)} · ${displaySource(story.source)}</span>
-        <h1 class="story-lead-title">${externalLink(story.url, story.title)}</h1>
+        <h1 class="story-lead-title">${postLink(story)}</h1>
         <p class="story-lead-excerpt">${story.excerpt}</p>
         <p class="story-meta">${timeAgo(story.time)}</p>
       </div>
@@ -207,7 +192,7 @@ function renderSideItem(story) {
   return `
     <article class="story-side">
       <span class="${tagClass(story.category)}">${tagLabel(story.category)}</span>
-      <h3 class="story-side-title">${externalLink(story.url, story.title)}</h3>
+      <h3 class="story-side-title">${postLink(story)}</h3>
       <p class="story-meta">${displaySource(story.source)} · ${timeAgo(story.time)}</p>
     </article>`;
 }
@@ -219,7 +204,7 @@ function renderCard(story, showExcerpt) {
       ${renderImageBlock(story, "story-card-image", "lazy")}
       <div class="story-card-body">
         <span class="${tagClass(story.category)}">${tagLabel(story.category)}</span>
-        <h3 class="story-card-title">${externalLink(story.url, story.title)}</h3>
+        <h3 class="story-card-title">${postLink(story)}</h3>
         ${excerpt}
         <p class="story-meta">${displaySource(story.source)} · ${timeAgo(story.time)}</p>
       </div>
@@ -227,7 +212,7 @@ function renderCard(story, showExcerpt) {
 }
 
 function renderTicker(stories) {
-  const items = stories.slice(0, 14).map((s) => `<span>${s.title}</span>`);
+  const items = stories.slice(0, 14).map((s) => `<a href="${MB.postUrl(s)}">${s.title}</a>`);
   els.ticker.innerHTML = [...items, ...items].join("");
 }
 

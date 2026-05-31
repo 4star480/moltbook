@@ -4,6 +4,7 @@
  */
 
 import { enrichStoryImages, upgradePublisherImageUrl } from "../../lib/story-images.mjs";
+import { attachSlug } from "../../lib/story-slug.mjs";
 
 const RSS_SOURCES = [
   (url) => "https://corsproxy.io/?" + encodeURIComponent(url),
@@ -23,7 +24,7 @@ async function fetchJson(url) {
 
 async function fetchAiStories() {
   const data = await fetchJson("https://dev.to/api/articles?tag=ai&per_page=15");
-  return data.map((a) => ({
+  return data.map((a) => attachSlug({
     id: `ai-${a.id}`,
     title: a.title,
     url: a.url,
@@ -42,7 +43,7 @@ async function fetchTechStories() {
       fetchJson(`https://hacker-news.firebaseio.com/v0/item/${id}.json`).catch(() => null)
     )
   );
-  return items.filter(Boolean).map((item) => ({
+  return items.filter(Boolean).map((item) => attachSlug({
     id: `hn-${item.id}`,
     title: item.title,
     url: item.url || `https://news.ycombinator.com/item?id=${item.id}`,
@@ -88,23 +89,26 @@ async function fetchWorldStories() {
       block.match(/<title>(.*?)<\/title>/)?.[1] ||
       "Untitled";
     const link = block.match(/<link>(.*?)<\/link>/)?.[1]?.trim() || "#";
-    const desc = stripHtml(
-      block.match(/<description><!\[CDATA\[(.*?)\]\]><\/description>/)?.[1] ||
-        block.match(/<description>(.*?)<\/description>/)?.[1] ||
+    const descRaw = stripHtml(
+      block.match(/<description><!\[CDATA\[(.*?)\]\]><\/description>/s)?.[1] ||
+        block.match(/<description>(.*?)<\/description>/s)?.[1] ||
         ""
-    ).slice(0, 220);
+    );
+    const desc = descRaw.slice(0, 220);
     const pub = block.match(/<pubDate>(.*?)<\/pubDate>/)?.[1];
     const media = block.match(/url="(https:\/\/[^"]+)"/)?.[1];
-    return {
-      id: `bbc-${i}-${link}`,
+    const articleId = link.match(/bbc\.com\/news\/(?:articles|videos)\/([^/?&#]+)/i)?.[1];
+    return attachSlug({
+      id: articleId ? `bbc-${articleId}` : `bbc-${i}`,
       title: title.trim(),
       url: link,
-      excerpt: desc || "BBC World headline.",
+      excerpt: desc || "World headline.",
+      rssDescription: descRaw.slice(0, 2500),
       source: "BBC World",
       category: "world",
       time: pub ? new Date(pub).getTime() : Date.now() - i * 3600000,
       image: media ? upgradePublisherImageUrl(media) : null,
-    };
+    });
   });
 }
 

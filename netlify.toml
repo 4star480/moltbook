@@ -7,3 +7,13 @@
   from = "/api/news"
   to = "/.netlify/functions/news"
   status = 200
+
+[[redirects]]
+  from = "/api/article"
+  to = "/.netlify/functions/article"
+  status = 200
+
+[[redirects]]
+  from = "/story/:slug"
+  to = "/story.html"
+  status = 200

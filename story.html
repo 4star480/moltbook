@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading… — Moltbook</title>
+  <meta name="description" content="Moltbook intelligence brief — full story" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/assets/logo-claw.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#article-main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-top">
+      <div class="wrap header-top-inner">
+        <a class="brand" href="/">
+          <img class="brand-logo" src="/assets/logo-claw.svg" width="32" height="32" alt="" />
+          <span class="brand-text">
+            <strong>Moltbook</strong>
+            <span class="brand-tagline">Intelligence Brief</span>
+          </span>
+        </a>
+        <div class="header-utils">
+          <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <a href="/" class="btn-refresh">All headlines</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="article-main" class="wrap article-page">
+    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span aria-hidden="true"> / </span>
+      <span id="breadcrumb-cat">Story</span>
+    </nav>
+
+    <article id="article-root" class="article-post">
+      <div class="article-loading" id="article-loading">
+        <div class="skeleton-block" style="height:2.5rem;max-width:90%;margin-bottom:1rem"></div>
+        <div class="skeleton-block" style="aspect-ratio:16/9;margin-bottom:1.5rem"></div>
+        <div class="skeleton-block" style="height:1rem;margin-bottom:0.5rem"></div>
+        <div class="skeleton-block" style="height:1rem;margin-bottom:0.5rem"></div>
+        <div class="skeleton-block" style="height:1rem;max-width:70%"></div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand-block">
+          <div class="footer-brand">
+            <img class="brand-logo" src="/assets/logo-claw.svg" width="28" height="28" alt="" />
+            <strong>Moltbook</strong>
+          </div>
+          <p class="footer-tagline">Independent AI, technology &amp; world news — curated and refreshed every 10 minutes.</p>
+        </div>
+      </div>
+      <p class="footer-disclaimer">
+        Stories on Moltbook are prepared from publicly available reporting for reading on this site.
+        Original publishers are credited on each post.
+      </p>
+      <div class="footer-meta">
+        <span>&copy; <span id="year"></span> Moltbook</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/shared.js"></script>
+  <script src="/js/story.js"></script>
+</body>
+</html>
