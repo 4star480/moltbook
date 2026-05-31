@@ -20,7 +20,10 @@
       <div class="wrap header-top-inner">
         <a class="brand" href="/">
           <img class="brand-logo" src="assets/logo-claw.svg" width="32" height="32" alt="" />
-          <span class="brand-text"><strong>Moltbook</strong></span>
+          <span class="brand-text">
+            <strong>Moltbook</strong>
+            <span class="brand-tagline">Intelligence Brief</span>
+          </span>
         </a>
         <div class="header-utils">
           <label class="search-wrap">
@@ -105,13 +108,32 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <div class="footer-brand">
-        <img class="brand-logo" src="assets/logo-claw.svg" width="24" height="24" alt="" />
-        <strong>Moltbook</strong>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand-block">
+          <div class="footer-brand">
+            <img class="brand-logo" src="assets/logo-claw.svg" width="28" height="28" alt="" />
+            <strong>Moltbook</strong>
+          </div>
+          <p class="footer-tagline">Independent AI, technology &amp; world news — curated and refreshed every 10 minutes.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <button type="button" data-filter="all">Home</button>
+          <button type="button" data-filter="world">World</button>
+          <button type="button" data-filter="tech">Technology</button>
+          <button type="button" data-filter="ai">Artificial Intelligence</button>
+          <a href="#main">Top of page</a>
+        </nav>
       </div>
-      <p class="footer-copy">Headlines from Dev.to, Hacker News &amp; BBC World · Auto-updated every 10 minutes</p>
-      <p class="footer-copy muted">&copy; <span id="year"></span> Moltbook</p>
+      <p class="footer-disclaimer">
+        <strong>Moltbook</strong> is an independent news reader, not affiliated with any publisher.
+        Headlines open on the original source in a new tab. Images and summaries are shown for discovery only.
+      </p>
+      <div class="footer-meta">
+        <span>&copy; <span id="year"></span> Moltbook</span>
+        <span>Auto-updated every 10 minutes</span>
+        <span>Data: public RSS &amp; APIs</span>
+      </div>
     </div>
   </footer>
 

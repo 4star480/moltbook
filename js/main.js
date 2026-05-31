@@ -1,5 +1,5 @@
 /**
- * Moltbook News — BBC-style layout, 10-minute auto-refresh from the web.
+ * Moltbook News — editorial layout, 10-minute auto-refresh from the web.
  */
 
 const REFRESH_MS = 10 * 60 * 1000;
@@ -58,6 +58,20 @@ function tagLabel(cat) {
   if (cat === "ai") return "AI";
   if (cat === "world") return "World";
   return "Tech";
+}
+
+/** User-facing source names — never show publisher branding as our own. */
+function displaySource(source) {
+  const map = {
+    "BBC World": "Global Desk",
+    "Hacker News": "Tech Wire",
+    "Dev.to": "AI Pulse",
+  };
+  return map[source] || source;
+}
+
+function externalLink(url, title) {
+  return `<a class="story-title-link" href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>`;
 }
 
 const IMG_W = 1600;
@@ -181,8 +195,8 @@ function renderLead(story) {
     <article class="story-lead">
       ${renderImageBlock(story, "story-lead-image", "eager")}
       <div class="story-lead-body">
-        <span class="${tagClass(story.category)}">${tagLabel(story.category)} · ${story.source}</span>
-        <h1 class="story-lead-title"><a href="${story.url}" target="_blank" rel="noopener noreferrer">${story.title}</a></h1>
+        <span class="${tagClass(story.category)}">${tagLabel(story.category)} · ${displaySource(story.source)}</span>
+        <h1 class="story-lead-title">${externalLink(story.url, story.title)}</h1>
         <p class="story-lead-excerpt">${story.excerpt}</p>
         <p class="story-meta">${timeAgo(story.time)}</p>
       </div>
@@ -193,8 +207,8 @@ function renderSideItem(story) {
   return `
     <article class="story-side">
       <span class="${tagClass(story.category)}">${tagLabel(story.category)}</span>
-      <h3 class="story-side-title"><a href="${story.url}" target="_blank" rel="noopener noreferrer">${story.title}</a></h3>
-      <p class="story-meta">${story.source} · ${timeAgo(story.time)}</p>
+      <h3 class="story-side-title">${externalLink(story.url, story.title)}</h3>
+      <p class="story-meta">${displaySource(story.source)} · ${timeAgo(story.time)}</p>
     </article>`;
 }
 
@@ -205,9 +219,9 @@ function renderCard(story, showExcerpt) {
       ${renderImageBlock(story, "story-card-image", "lazy")}
       <div class="story-card-body">
         <span class="${tagClass(story.category)}">${tagLabel(story.category)}</span>
-        <h3 class="story-card-title"><a href="${story.url}" target="_blank" rel="noopener noreferrer">${story.title}</a></h3>
+        <h3 class="story-card-title">${externalLink(story.url, story.title)}</h3>
         ${excerpt}
-        <p class="story-meta">${story.source} · ${timeAgo(story.time)}</p>
+        <p class="story-meta">${displaySource(story.source)} · ${timeAgo(story.time)}</p>
       </div>
     </article>`;
 }
@@ -364,31 +378,34 @@ els.theme.addEventListener("click", () => {
 });
 
 function setActiveNav(filter) {
-  document.querySelectorAll(".cat-link").forEach((b) => {
+  document.querySelectorAll(".cat-link, .footer-nav button[data-filter]").forEach((b) => {
     b.classList.toggle("is-active", b.dataset.filter === filter);
   });
 }
 
+function applyFilter(filter) {
+  activeFilter = filter || "all";
+  setActiveNav(activeFilter);
+  render();
+  if (activeFilter === "all") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } else {
+    els.filterLayout.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
 document.querySelectorAll(".cat-link").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    activeFilter = btn.dataset.filter || "all";
-    setActiveNav(activeFilter);
-    render();
-    if (activeFilter === "all") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    } else {
-      els.filterLayout.scrollIntoView({ behavior: "smooth" });
-    }
-  });
+  btn.addEventListener("click", () => applyFilter(btn.dataset.filter));
+});
+
+document.querySelectorAll(".footer-nav button[data-filter]").forEach((btn) => {
+  btn.addEventListener("click", () => applyFilter(btn.dataset.filter));
 });
 
 document.querySelectorAll(".section-more").forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
-    activeFilter = link.dataset.filter || "all";
-    setActiveNav(activeFilter);
-    render();
-    els.filterLayout.scrollIntoView({ behavior: "smooth" });
+    applyFilter(link.dataset.filter);
   });
 });
 

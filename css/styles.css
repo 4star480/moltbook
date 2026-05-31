@@ -5,9 +5,10 @@
   --text-muted: #545658;
   --border: #e6e6e6;
   --border-strong: #121212;
-  --accent: #bb1919;
-  --accent-hover: #9a1414;
+  --accent: #ea580c;
+  --accent-hover: #c2410c;
   --brand-orange: #ea580c;
+  --brand-purple: #7c3aed;
   --ai: #7c3aed;
   --tech: #006699;
   --world: #007a3d;
@@ -23,8 +24,8 @@
   --text-muted: #a3a3a3;
   --border: #2a2a2a;
   --border-strong: #f2f2f2;
-  --accent: #ff4444;
-  --accent-hover: #ff6666;
+  --accent: #f97316;
+  --accent-hover: #fb923c;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -59,7 +60,7 @@ img { max-width: 100%; display: block; }
 .muted { color: var(--text-muted); }
 .hidden { display: none !important; }
 
-/* Header — BBC-style stacked bar */
+/* Header */
 .site-header {
   position: sticky; top: 0; z-index: 50;
   background: var(--bg);
@@ -77,11 +78,22 @@ img { max-width: 100%; display: block; }
   display: flex; align-items: center; gap: 0.65rem;
 }
 .brand-logo { flex-shrink: 0; }
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
 .brand-text strong {
   font-size: 1.75rem; font-weight: 700; letter-spacing: -0.03em;
-  color: var(--text);
+  color: var(--brand-orange);
 }
-[data-theme="light"] .brand-text strong { color: var(--brand-orange); }
+.brand-tagline {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
 
 .header-utils { display: flex; align-items: center; gap: 0.5rem; }
 
@@ -132,7 +144,8 @@ img { max-width: 100%; display: block; }
 /* Breaking bar */
 .breaking-bar {
   display: flex; align-items: stretch;
-  background: var(--accent); color: #fff;
+  background: linear-gradient(90deg, var(--brand-orange), var(--brand-purple));
+  color: #fff;
   min-height: 40px; overflow: hidden;
 }
 .breaking-label {
@@ -202,7 +215,7 @@ img { max-width: 100%; display: block; }
   color: var(--text);
 }
 
-/* Lead grid — BBC homepage pattern */
+/* Lead grid */
 .lead-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -349,19 +362,57 @@ img { max-width: 100%; display: block; }
   color: var(--text-muted);
 }
 
-/* Footer */
+.story-title-link::after {
+  content: " ↗";
+  font-size: 0.75em;
+  opacity: 0.45;
+}
+
+/* Footer — Moltbook */
 .site-footer {
-  border-top: 2px solid var(--border-strong);
-  padding: 1.5rem 0 2rem;
+  border-top: 3px solid var(--brand-orange);
+  padding: 2rem 0 2.5rem;
   background: var(--bg-alt);
+  margin-top: 2rem;
 }
-.footer-inner { text-align: center; }
+.footer-inner { max-width: var(--wrap); margin: 0 auto; padding: 0 1rem; }
+.footer-top {
+  display: flex; flex-wrap: wrap; align-items: flex-start;
+  justify-content: space-between; gap: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.25rem;
+}
+.footer-brand-block { max-width: 280px; }
 .footer-brand {
-  display: inline-flex; align-items: center; gap: 0.5rem;
-  margin-bottom: 0.5rem;
+  display: flex; align-items: center; gap: 0.55rem;
+  margin-bottom: 0.35rem;
 }
-.footer-brand strong { font-size: 1.1rem; color: var(--brand-orange); }
-.footer-copy { margin: 0.25rem 0; font-size: 0.8125rem; }
+.footer-brand strong { font-size: 1.35rem; color: var(--brand-orange); }
+.footer-tagline { margin: 0; font-size: 0.875rem; color: var(--text-muted); line-height: 1.5; }
+.footer-nav {
+  display: flex; flex-wrap: wrap; gap: 0.35rem 1.25rem;
+}
+.footer-nav a, .footer-nav button {
+  font: inherit; font-size: 0.875rem; font-weight: 600;
+  color: var(--text); background: none; border: none;
+  padding: 0; cursor: pointer;
+}
+.footer-nav a:hover, .footer-nav button:hover { color: var(--brand-orange); text-decoration: underline; }
+.footer-nav button.is-active { color: var(--brand-orange); }
+.footer-disclaimer {
+  margin: 0 0 1rem;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  max-width: 52rem;
+}
+.footer-meta {
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem;
+  font-size: 0.75rem; color: var(--text-muted);
+}
+.footer-meta a { text-decoration: underline; text-underline-offset: 2px; }
+.footer-meta a:hover { color: var(--text); }
 
 @media (max-width: 960px) {
   .lead-grid { grid-template-columns: 1fr; }
